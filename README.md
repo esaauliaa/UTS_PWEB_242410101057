@@ -1,13 +1,13 @@
 # UTS PWEB
 
-## 👤 Identitas
+## Identitas
 Nama: Esa Aulia
 NIM: 242410101057
 Kelas: B
 
 ---
 
-## 📌 Deskripsi Project
+## Deskripsi Project
 Website **Bloom Bouquet** adalah website katalog dan pengelolaan buket bunga yang dibuat menggunakan Laravel dengan konsep MVC. Website ini memungkinkan user untuk melakukan login, melihat dashboard, mengakses halaman profile, serta melihat daftar produk bouquet yang ditampilkan secara dinamis.
 
 Pada halaman pengelolaan, data produk seperti nama, harga, deskripsi, status, dan gambar disusun dalam bentuk array di controller, kemudian dikirim ke view dan ditampilkan menggunakan perulangan Blade (@foreach). Hal ini menunjukkan penerapan data rendering secara dinamis.

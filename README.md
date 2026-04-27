@@ -8,7 +8,7 @@ Kelas: B
 ---
 
 ## Deskripsi Project
-Website **Bloom Bouquet** adalah website katalog dan pengelolaan buket bunga yang dibuat menggunakan Laravel dengan konsep MVC. Website ini memungkinkan user untuk melakukan login, melihat dashboard, mengakses halaman profile, serta melihat daftar produk bouquet yang ditampilkan secara dinamis.
+Website **Bloom Bouquet** adalah website katalog dan pengelolaan buket bunga yang dibuat menggunakan Laravel dengan konsep MVC. Website ini memungkinkan user untuk melakukan login, melihat dashboard, melihat daftar produk bouquet yang ditampilkan, serta mengakses halaman profile.
 
 Pada halaman pengelolaan, data produk seperti nama, harga, deskripsi, status, dan gambar disusun dalam bentuk array di controller, kemudian dikirim ke view dan ditampilkan menggunakan perulangan Blade (@foreach). Hal ini menunjukkan penerapan data rendering secara dinamis.
 
@@ -28,8 +28,8 @@ Dengan menggunakan Blade Template Engine, struktur tampilan dibuat lebih rapi me
 ## Fitur
 - Login
 - Dashboard
-- Profile
 - Pengelolaan Produk Bouquet
+- Profile
 
 ---
 
@@ -41,8 +41,8 @@ Dengan menggunakan Blade Template Engine, struktur tampilan dibuat lebih rapi me
 ### Dashboard
 ![Dashboard](screenshots/dashboard.png)
 
-### Profile
-![Profile](screenshots/profile.png)
-
 ### Pengelolaan
 ![Pengelolaan](screenshots/pengelolaan.png)
+
+### Profile
+![Profile](screenshots/profile.png)

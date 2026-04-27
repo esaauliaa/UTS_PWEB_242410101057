@@ -1,58 +1,48 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# UTS PWEB
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+## 👤 Identitas
+Nama: Esa Aulia
+NIM: 242410101057
+Kelas: B
 
-## About Laravel
+---
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## 📌 Deskripsi Project
+Website **Bloom Bouquet** adalah website katalog dan pengelolaan buket bunga yang dibuat menggunakan Laravel dengan konsep MVC. Website ini memungkinkan user untuk melakukan login, melihat dashboard, mengakses halaman profile, serta melihat daftar produk bouquet yang ditampilkan secara dinamis.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+Pada halaman pengelolaan, data produk seperti nama, harga, deskripsi, status, dan gambar disusun dalam bentuk array di controller, kemudian dikirim ke view dan ditampilkan menggunakan perulangan Blade (@foreach). Hal ini menunjukkan penerapan data rendering secara dinamis.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+Selain itu, website ini juga menerapkan request parameter untuk mengambil data dari form login, session untuk menyimpan data user sementara, serta redirect untuk mengatur perpindahan halaman setelah proses login.
 
-## Learning Laravel
+Dengan menggunakan Blade Template Engine, struktur tampilan dibuat lebih rapi melalui penggunaan layout, section, dan component seperti navbar dan footer.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+---
 
-In addition, [Laracasts](https://laracasts.com) contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+## Teknologi yang Digunakan
+- Laravel (MVC)
+- Blade Template Engine
+- CSS
 
-You can also watch bite-sized lessons with real-world projects on [Laravel Learn](https://laravel.com/learn), where you will be guided through building a Laravel application from scratch while learning PHP fundamentals.
+---
 
-## Agentic Development
+## Fitur
+- Login
+- Dashboard
+- Profile
+- Pengelolaan Produk Bouquet
 
-Laravel's predictable structure and conventions make it ideal for AI coding agents like Claude Code, Cursor, and GitHub Copilot. Install [Laravel Boost](https://laravel.com/docs/ai) to supercharge your AI workflow:
+---
 
-```bash
-composer require laravel/boost --dev
+## Screenshot
 
-php artisan boost:install
-```
+### Login
+![Login](screenshots/login.png)
 
-Boost provides your agent 15+ tools and skills that help agents build Laravel applications while following best practices.
+### Dashboard
+![Dashboard](screenshots/dashboard.png)
 
-## Contributing
+### Profile
+![Profile](screenshots/profile.png)
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+### Pengelolaan
+![Pengelolaan](screenshots/pengelolaan.png)
